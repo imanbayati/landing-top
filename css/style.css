@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+         url('Vazir.woff2') format('woff2'),
+         url('Vazir.woff') format('woff'),
+         url('Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Bold.eot');
+    src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Bold.woff2') format('woff2'),
+         url('Vazir-Bold.woff') format('woff'),
+         url('Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Black.eot');
+    src: url('Vazir-Black.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Black.woff2') format('woff2'),
+         url('Vazir-Black.woff') format('woff'),
+         url('Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Medium.eot');
+    src: url('Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Medium.woff2') format('woff2'),
+         url('Vazir-Medium.woff') format('woff'),
+         url('Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Light.eot');
+    src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Light.woff2') format('woff2'),
+         url('Vazir-Light.woff') format('woff'),
+         url('Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Thin.eot');
+    src: url('Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Thin.woff2') format('woff2'),
+         url('Vazir-Thin.woff') format('woff'),
+         url('Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@media  (min-width:1000px) and  (max-width:1300px){
+	.play img{
+		height: 500px !important;
+	}
+}
+@media  (min-width:400px) and  (max-width:500px){
+	.play .overlay a{
+		font-size: 2rem !important;
+		top: 26% !important;
+	}
+}
+@media  (min-width:300px) and  (max-width:400px){
+	.play .overlay a{
+		font-size: 2rem !important;
+		top: 20% !important;
+	}
+}
+@media  (min-width:200px) and  (max-width:300px){
+	.play .overlay a{
+		font-size: 2rem !important;
+		top: 7% !important;
+		right: 35%;
+	}
+}
+@media  screen and  (max-width:768px){
+	.list-who{
+		justify-content: center !important;
+	}
+}
+
+a{
+	text-decoration: none !important;
+}
+body{
+	background-color: rgb(255 ,244, 228) !important;
+}
+*{
+	font-family: vazir;
+}
+.rocket{
+	font-size: 2rem;
+	margin-left: 8px !important
+}
+.en-titr{
+	letter-spacing: 14px;
+	font-size: 12px;
+	font-weight: 400;
+}
+.Mobile img{
+	height: 500px;
+}
+.text-img{
+	line-height: 3.5rem;
+	font-size: 15px;
+	font-weight: 500;
+}
+.card-present{
+	border-radius: 17px !important;
+	box-shadow: 0 0 2rem rgba(90, 100, 150, 0.2);
+}
+.play{
+	position: relative;
+	border-radius: 10px;
+}
+.play img{
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+}
+.play .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.3);
+}
+.play .overlay a{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	color: #f08080;
+	font-size: 4rem !important;
+	transition: .2s;
+}
+.play .overlay a:hover{
+	transform: scale(1.2);
+	transition: .2s;
+}
+.text-present{
+	line-height: 3rem;
+	font-size: 13px;
+}
+.card-master{
+	border-radius: 17px !important;
+	box-shadow: 0 0 2rem rgba(90, 100, 150, 0.2);
+}
+.card-master .card-img-top img{
+	max-width: 300px;
+	height: auto;
+}
+.name{
+	font-size: 18px;
+	font-weight: 600;
+}
+.ouestion-card{
+	border-radius: 17px !important;
+	box-shadow: 0 0 2rem rgba(90, 100, 150, 0.2);
+}
+.ouestion-card .card-header{
+	background-color: rgb(244,151,143) ;
+	border-radius: 17px !important;
+}
+.ouestion-card .card-header p.class{
+	background-color: white;
+	z-index: 10;
+}
+.ouestion-card .card-header p.class{
+	color: rgb(244,151,143);
+    padding: 8px 16px !important;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.text-question{
+	font-size: 15px;
+	font-weight: 400;
+}
+.text-in-question{
+	font-size: 14px;
+	line-height: 45px;
+}
+.text-in-question-list small{
+	font-size: 13px;
+	font-weight: 600;
+}
+.card-who{
+	box-shadow: 0 0 2rem rgba(90, 100, 150, 0.2);
+	border-radius: 17px !important;
+}
+.list-who-icon{
+	margin-left: 6px;
+	color: #E91E63;
+	font-size: 20px;
+}
+.card-who .list-who small{
+	font-size: 15px;
+	font-weight: 500;
+}
+.card-who .list-who{
+	margin-right: 5px;
+}
+.img-who-card img{
+	height:500px;
+}
+.bg-buy{
+	background-image: linear-gradient(to right , #ec008c, #fc6767)
+}
+.text-buy{
+	font-size: 23px;
+	font-weight: 800;
+}
+.new-price{
+	margin: 0 10px;
+	border: 1px solid white;
+	padding: 8px;
+	border-radius: 7px;
+	font-size: 25px;
+	font-weight: 600;
+	background-color: white;
+	color: #D81B60 !important;
+}
+.old-price{
+	margin: 0 10px;
+	border: 1px solid white;
+	padding: 8px;
+	border-radius: 7px;
+	font-size: 20px;
+	font-weight: 200;
+	text-decoration: line-through;
+}
+.text-price{
+	font-size: 20px;
+}
+.button-buy{
+	background-image: linear-gradient(to right, #e65c00, #f9d423);
+	font-size: 27px !important;
+	font-weight: 700 !important;
+	padding: 17px !important;
+	border-radius: 15px !important;
+	display: block !important;
+	box-shadow: 0 0 1rem rgba(33, 33, 33, 0.6) !important;
+	transition: .3s !important;
+}
+.button-buy:hover{
+	box-shadow: none !important;
+	transition: .3s !important;
+}
+.button-more{
+	background-image: linear-gradient(to right, #FF5F6D, #FFC371);
+	font-size: 18px !important;
+	padding: 12px !important;
+	border-radius: 15px !important;
+	display: block !important;
+	box-shadow: 0 0 1rem rgba(33, 33, 33, 0.6) !important;
+	transition: .3s !important;
+}
+.button-more:hover{
+	box-shadow: none !important;
+	transition: .3s !important;
+}
+
+
+
+
+
+
+
+
+
